@@ -1,0 +1,43 @@
+.my-messages {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 40px 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .conversation123 {
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .conversation123:hover {
+    background-color: #e0e0e0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  
+  .unread-notification {
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-left: 5px;
+  }
+  

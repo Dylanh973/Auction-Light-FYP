@@ -1,0 +1,73 @@
+.not-a-user {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.not-a-user button {
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.not-a-user button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.sign-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%; 
+}
+
+.sign-in-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 400px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+.form-input:focus{
+    outline: none;
+}
+
+.login-btn {
+  padding: 0.5rem 3rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}

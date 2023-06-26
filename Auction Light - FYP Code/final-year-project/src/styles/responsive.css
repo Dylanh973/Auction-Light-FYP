@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .header-container header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .icon-container {
+      margin-top: 0.5rem;
+    }
+  
+    .sign-in-container {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .sign-in-container form {
+      width: 100%;
+    }
+  
+    .not-a-user {
+      padding: 1rem;
+    }
+  }
+  

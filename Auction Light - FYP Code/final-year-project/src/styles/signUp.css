@@ -1,0 +1,96 @@
+.already-user {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  .already-user button {
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .already-user button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+.form-input {
+    width: 400px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #808080;
+  }
+  .form-input:focus{
+    outline: none;
+}
+.signup-btn {
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
+  .signup-title{
+    text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  }
+
+  .sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%; 
+    width: 100%;
+    height: 100%;
+  }
+  .sign-up-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .stop-redirect-btn {
+    padding: 0.5rem 3rem;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+    white-space: nowrap;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+  .countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .countdown-message {
+    font-size: 14px; 
+    margin-bottom: 5px; 
+  }
+  
